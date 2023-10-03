@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c072d8fd-dfdc-4ba2-95cd-f0163353ee63">
+  <name>УправлениеШвейнойМастерской</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление швейной мастерской</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="19b486bc-8c01-4b5a-8ebf-85b430e90947"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="05845c15-dd80-4cba-bd77-6d7db56aea6c"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b4a52615-bd65-4636-b151-f0b63b053c66"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="74b4f125-c92c-44a4-afbc-da9ccb3de9a3"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="154bd5bb-0ea3-418b-a05c-a7de78a79239"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="773a55a8-dc9b-4753-b094-e9356d24c5cf"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="1312e9be-d0e2-43e9-9630-8e583966141f"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>Ерин Павел</vendor>
+  <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <copyright>
+    <key>ru</key>
+    <value>Ерин Павел</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.22</compatibilityMode>
+  <defaultReportAppearanceTemplate>Main</defaultReportAppearanceTemplate>
+  <languages uuid="205d1e72-2c42-4bfd-8eb2-3f6b66b6eb25">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Клиенты</subsystems>
+  <subsystems>Subsystem.Служебное</subsystems>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <documents>Document.Заказ</documents>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <informationRegisters>InformationRegister.ЗаказыКлиентов</informationRegisters>
+  <informationRegisters>InformationRegister.ЦенаНоменклатуры</informationRegisters>
+</mdclass:Configuration>

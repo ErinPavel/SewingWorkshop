@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce54f07d-66dc-4456-9cee-f56c5e1280a2">
+  <producedTypes>
+    <refType typeId="48f4644e-6648-424c-97e5-430fb80ea188" valueTypeId="64a0f460-a1c8-4294-aa06-3dfc112d23b2"/>
+    <listType typeId="07c30629-96fe-4a68-9765-84328749ed50" valueTypeId="1ecfbb8e-2c01-419c-9e1b-ea1d915d753e"/>
+    <managerType typeId="9f5d9011-a251-4ff0-a20f-b13f04b164a6" valueTypeId="f90c7a96-06c6-4016-9762-a2afbc6d74eb"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b1ac744f-3ee7-47ca-9e21-686a9ecce676">
+    <name>Штука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штука</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02e17a7a-91df-48d2-bba4-8d597b5db76a">
+    <name>Метр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метр</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
